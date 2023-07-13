@@ -1,0 +1,560 @@
+@keyframes slide-in-top {
+    0% {
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .sales-ai-helps {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: inherit;
+    opacity: 0;
+  }
+  .sales-ai-helps.animate {
+    animation: 1s ease 0.3s 1 normal forwards slide-in-top;
+  }
+
+  
+  .rohrmans-salesal-nicknamed {
+    margin: 0;
+  }
+  .rohrmans-salesal-nicknamed-container {
+    order: 1;
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .after-just-30 {
+    flex: 1;
+    position: relative;
+    line-height: 28px;
+  }
+  .after-just-30-days-with-sales-wrapper {
+    align-self: stretch;
+    background-color: rgba(24, 0, 58, 0.8);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 34px 41px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-wrapper {
+    flex: 1;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(https://images.pexels.com/photos/17211693/pexels-photo-17211693/free-photo-of-city-road-man-people.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+  }
+  .rohrmans-salesal-nicknamed-m-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 84px;
+  }
+  .main-slide,
+  .main-slide-inner {
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 22px;
+  }
+  .main-slide {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    padding: 115px 120px;
+    box-sizing: border-box;
+    gap: 37px;
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-black);
+    font-family: var(--font-raleway);
+  }
+
+  .blank-line {
+    margin: 0;
+}
+/* .rectangle-parent {
+    position: relative;
+    overflow: hidden;
+    width: 506px;
+    height: 514px;
+    background-image: url(./public/frame-11@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 24px;
+    color: var(--color-white);
+} */
+
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(24, 0, 58, 0.8);
+  width: 506px;
+  height: 153px;
+}
+
+.lorem-ipsum-is-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    width: 578px;
+    flex-shrink: 0;
+}
+
+.rectangle-parent {
+  order: 2;
+  position: relative;
+  overflow: hidden;
+  width: 506px;
+  height: 506px;
+}
+
+/* .background {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #230259;
+    transition: left 1.5s ease;
+    z-index: 2;
+} */
+
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background-color: #230259;
+  transition: left 2s ease 1.3s ;
+  z-index: 2;
+  opacity: 0.8;
+  transform: skewX(-30deg) scale(0.8);
+  transform-origin: left right;
+}
+
+.lorem-ipsum-is-container1 {
+  position: relative;
+  display: inline-block;
+  top:-27px;
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s ease;
+  z-index: 1;
+  /* background-image: url("https://images.pexels.com/photos/7144184/pexels-photo-7144184.jpeg?cs=srgb&dl=pexels-antoni-shkraba-7144184.jpg&fm=jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  /* visibility: hidden; */
+}
+
+/* .container.loaded .background {
+    left: 100%;
+} */
+
+.lorem-ipsum-is-container1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lorem-ipsum-is-container1 .blank-line {
+    position: absolute;
+    top: 40px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #23025994;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    align-content: center;
+}
+
+.rectangle-parent.loaded .frame-child {
+  left: 100%;
+  opacity: 1;
+  transform: skewX(0deg) scale(1);
+}
+
+.rectangle-parent.loaded .lorem-ipsum-is-container1 {
+  opacity: 1;
+}
+
+
+
+/* .lorem-ipsum-is-container1 {
+    position: absolute;
+    top: 34px;
+    left: 41px;
+    line-height: 28px;
+} */
+  @media screen and (max-width: 420px) {
+    .sales-ai-helps {
+      opacity: 0;
+    }
+    .sales-ai-helps.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-top;
+    }
+
+    .rectangle-parent{
+
+    order: 1;
+    }
+
+
+    @keyframes slide-in-top {
+      0% {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .rohrmans-salesal-nicknamed-container {
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 1210px) and (min-width: 960px) {
+    
+    
+    .sales-ai-helps {
+      opacity: 0;
+    }
+    .sales-ai-helps.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-top;
+    }
+    @keyframes slide-in-top {
+      0% {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .frame-wrapper,
+    .rohrmans-salesal-nicknamed-container {
+      flex: unset;
+      align-self: stretch;
+    }
+    .rohrmans-salesal-nicknamed-m-parent {
+      
+      flex-direction: column;
+    
+    }
+    .main-slide-inner {
+      
+      align-self: stretch;
+      width: auto;
+      opacity: 0;
+    }
+    .main-slide-inner.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-bottom;
+    }
+    @keyframes slide-in-bottom {
+      0% {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .main-slide {
+      padding: var(--padding-31xl) 40px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 419px) and (min-width: 300px) {
+    
+
+    .rectangle-parent {
+      order: 1;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 360px;
+      
+     }
+
+     .lorem-ipsum-is-container1 .blank-line {
+      position: absolute;
+      top: 49px;
+      width: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-size: 20px;
+      background-color: #23025994;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      margin-top: 45px;
+      align-content: center;
+  }
+    
+     
+    .sales-ai-helps {
+      font-weight: 600;
+      font-family: var(--font-raleway);
+      font-size: var(--font-size-5xl);
+      line-height: 28px;
+      text-align: left;
+    }
+    
+    .lorem-ipsum-is-container1 img {
+      display: block;
+      width: 100%;
+      height: 400px;
+    }
+
+
+    .rohrmans-salesal-nicknamed-container {
+      order: 2;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: left;
+      flex: unset;
+      align-self: stretch;
+      top: -30px;
+    }
+    .after-just-30 {
+      font-size: var(--font-size-xl);
+      line-height: 24px;
+    }
+    .after-just-30-days-with-sales-wrapper {
+      padding-left: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .frame-wrapper {
+      height: 450px;
+      min-height: 0;
+      flex: unset;
+      align-self: stretch;
+    }
+    .rohrmans-salesal-nicknamed-m-parent {
+      flex-direction: column;
+      gap: 55px;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0;
+      padding-top: 0;
+      box-sizing: border-box;
+    }
+    .main-slide-inner {
+      align-self: stretch;
+      width: auto;
+    }
+    .main-slide {
+      gap: 30px;
+      padding: var(--padding-31xl) var(--padding-mini);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (min-width: 1210px) {
+    .main-slide-inner,
+    .sales-ai-helps {
+      opacity: 0;
+    }
+    .sales-ai-helps.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-top;
+    }
+    @keyframes slide-in-top {
+      0% {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .main-slide-inner.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-bottom;
+    }
+    @keyframes slide-in-bottom {
+      0% {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 420px) {
+    .sales-ai-helps {
+      font-weight: 600;
+      font-family: var(--font-raleway);
+      font-size: var(--font-size-5xl);
+      line-height: 28px;
+      text-align: left;
+    }
+    .rohrmans-salesal-nicknamed-container {
+      flex: unset;
+      align-self: stretch;
+    }
+    .after-just-30,
+    .rohrmans-salesal-nicknamed-container {
+      font-size: var(--font-size-xl);
+      line-height: 24px;
+    }
+    .after-just-30-days-with-sales-wrapper {
+      padding-left: 28px;
+      padding-top: var(--padding-mini);
+      padding-bottom: var(--padding-mini);
+      box-sizing: border-box;
+    }
+    .frame-wrapper {
+      height: 450px;
+      flex: unset;
+      align-self: stretch;
+    }
+    .rohrmans-salesal-nicknamed-m-parent {
+      flex-direction: column;
+      gap: 58px;
+    }
+    .main-slide-inner {
+      align-self: stretch;
+      width: auto;
+      gap: 10px;
+    }
+    .main-slide {
+      gap: 25px;
+      padding: var(--padding-11xl) 10px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 960px) and (min-width: 600px) {
+    
+    .lorem-ipsum-is-container1 img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .sales-ai-helps {
+      margin: 0px;
+      align-self: flex-start;
+      position: relative;
+      font-size: inherit;
+      line-height: 40px;
+      font-weight: 500;
+      font-family: inherit;
+      opacity: 0;
+    }
+    .sales-ai-helps.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-top;
+    }
+    @keyframes slide-in-top {
+      0% {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .frame-wrapper,
+    .rohrmans-salesal-nicknamed-container {
+      flex: unset;
+      align-self: stretch;
+    }
+    .frame-wrapper {
+      height: 1000px;
+    }
+    .rohrmans-salesal-nicknamed-m-parent {
+      flex-direction: column;
+    }
+    .main-slide-inner {
+      align-self: stretch;
+      width: auto;
+      opacity: 0;
+    }
+    .main-slide-inner.animate {
+      animation: 1s ease 0.3s 1 normal forwards slide-in-bottom;
+    }
+    @keyframes slide-in-bottom {
+      0% {
+        transform: translateY(40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .main-slide {
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-11xl);
+      box-sizing: border-box;
+      padding: 65px 20px;
+    }
+
+    .rectangle-parent {
+      order: 1;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 900px;
+    }
+    .lorem-ipsum-is-container1 .blank-line {
+      position: absolute;
+      top: 40px;
+      width: 95%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-size: 27px;
+      background-color: #23025994;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      margin-top: 45px;
+      align-content: center;
+  }
+  }
+  
